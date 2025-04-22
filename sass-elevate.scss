@@ -135,7 +135,7 @@ h2 {
         @content;
     }
 }
-@include responsive($breakpoint-small) {
+@include responsive($breakpoint-extra-small) {
     .card-list {
         flex-direction: column;
         align-items: center;
