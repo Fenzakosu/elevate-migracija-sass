@@ -1,0 +1,27 @@
+@use 'variables';
+
+/* Main Section */
+.main {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10px;
+
+    .content {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: variables.$color-orange;
+    }
+
+    p {
+        font-size: variables.$font-size-p;
+    }
+
+    img {
+        width: 40%;
+    }
+}
